@@ -1,0 +1,51 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 10, 2018
+    Author     : JuanValencia
+*/
+
+.root {
+    -fx-background-image: url(background2.jpg);
+}
+
+#welcome-text{
+    -fx-font-size: 32px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: #818181;
+    -fx-effect: innershadow(three-pass-box,rgba(0, 0, 0, 0.7), 6, 0.0, 0, 2);
+}
+
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#49c0f0, #2CAFE3);
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+
+.button:hover{
+    -fx-background-color: linear-gradient(#1ab0ec, #1a92c2);
+}
+
+#btnExit {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#f62b2b, #d20202);
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+
+#btnExit:hover{
+    -fx-background-color: linear-gradient(#E40A0A, #9f0202);
+}
+
+.label {
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-font-color: Black;
+}
